@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quiz.css">
+    <title>Quiz Words | Game</title>
+</head>
+
+<body>
+
+    <header class="content-header">
+        <h1>Quiz | Game English</h1>
+    </header>
+
+    <main class="main-responsive">
+        <div class="background-container">
+
+        </div>
+        <div class="text-start">
+            <h1>Quantas Questões em inglês Voçê consegue acertar?</h1>
+        </div>
+
+        <div class="questions">
+            <h1 id="question"></h1>
+            <h2 id="word"></h2>
+
+        </div>
+
+        <div class="form-game" id="options">
+
+        </div>
+        <div id="message"></div>
+
+
+
+
+    </main>
+    <div class="btn-game">
+        <button class="start" onclick="startGame()">Começar</button>
+        <div class="style-timer">Time: <span class="timer">10</span></div>
+        <button class="end" onclick="endGame()" id="disabled">Terminar o jogo</button>
+    </div>
+    <div class="scorePlayer" id="score-player">
+        <h1 class="name-player">
+            <%= username %>
+        </h1>
+        <h1>Your Score:</h1><span class="score">0</span>
+    </div>
+
+    <script src="/js/quiz.js"></script>
+
+</body>
+
+</html>

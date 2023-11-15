@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Exo:wght@300&family=Mooli&family=Philosopher:wght@400;700&family=Poppins:wght@200;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Exo:wght@300&family=Mooli&family=Philosopher:wght@400;700&family=Poppins:wght@200;300;400;500&family=Prompt&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+body {
+    background: linear-gradient(to bottom, #e6e6e6, #eeeeee);
+   
+    
+}
+
+
+header {
+    text-align: center;
+    padding: 40px 0px;
+    font-family: "Black Ops One";
+    color: #f5bc02;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+main {
+    width: 90%;
+    height: 100%;
+    color: white;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Prompt', Arial, Helvetica, sans-serif;
+}
+
+.main-responsive {
+    position: relative;
+    
+}
+
+.background-container {
+
+    background-color: #f5bc02;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.text-start {
+    color: white;
+    font-family: "Black Ops One";
+}
+
+main > .questions {
+    padding: 40px 5px;
+    margin: 40px 0px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+main > .form-game, #options {
+    display: none;
+}
+
+main > .form-game > button {
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #333;
+    background-color: white;
+    
+    border-radius: 8px;
+    border: none;
+    color: #f5bc02;
+    box-shadow: 5px 5px 0px #c0c0c0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+main > .form-game > button:hover {
+    transform: scale(1.2);
+}
+
+.questions h1 {
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+#message {
+    display: block;
+    margin: 40px auto;
+    transition: 0.6s;
+}
+
+
+#word {
+    width: 200px;
+    color: #333;
+    background-color: white;
+    box-shadow: 5px 5px 0px #c0c0c0;
+    border-radius: 8px;
+}
+
+.scorePlayer {
+    width: 60%;
+    display: none;
+    color: white;
+    background: linear-gradient(to left, rgb(245, 183, 11), #99821b);
+    box-shadow: 0px 0px 15px #33333369;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 50px auto;
+    font-family: "Black Ops One";
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.scorePlayer h1:first-child {
+    color: #fff;
+    background: linear-gradient(to left, rgb(245, 183, 11), #99821b);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.scorePlayer span {
+    font-size: 26px;
+}
+
+.scorePlayer:hover {
+    transform: scale(1.02);
+
+}
+
+.text-start {
+    line-height: 35px;
+}
+
+.btn-game {
+    width: 100%;
+    max-width: 250px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.btn-game button {
+    padding: 5px;
+    margin: 10px 0px;
+    font-family: 'Black Ops One';
+    font-size: 22px;
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-game button.start {
+    background-color: #c5a203;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+}
+
+.btn-game button:hover {
+    animation: animationScale 0.8s alternate infinite;
+}
+.style-timer {
+    padding: 5px;
+    margin: 10px 0px;
+    font-family: 'Black Ops One';
+    font-size: 22px;
+    color: white;
+    background-color: #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.timer {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.end {
+    display: none;
+}
+
+.correct-message {
+    background-color: rgb(29, 214, 29);
+    box-shadow: 5px 5px 0px rgb(255, 255, 255);
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    max-width: 200px;
+}
+
+.incorrect-message {
+    background-color: red;
+    box-shadow: 5px 5px 0px rgb(255, 255, 255);
+    border-radius: 8px;
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    max-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 50%;
+    }
+}
+
+@keyframes animationScale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}

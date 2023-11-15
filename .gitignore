@@ -1,0 +1,5 @@
+/venv
+.env
+mysql_game_english
+node_modules
+mysql

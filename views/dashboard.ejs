@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard | Game</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <nav>
+                <img src="/images/dashboard/images/versus.png" class="logo" alt="Logo">
+                <img src="/images/dashboard/images/profile.png" class="user-pic" alt="user" onclick="toggleMenu()">
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="/images/dashboard/images/usuario-de-perfil.png" alt="user">
+                            <h3>
+                                <%= username %>
+                            </h3>
+                        </div>
+                        <hr>
+
+                        <a href="/pages/partials/edit_profile.html" class="sub-menu-link">
+                            <img src="/images/dashboard/images/profile.png" alt="Profile">
+                            <p>Edit Profile</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="/images/dashboard/images/setting.png" alt="Profile">
+                            <p>Settings & Privacy</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="/images/dashboard/images/help.png" alt="Profile">
+                            <p>Help && Support</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="/images/dashboard/images/logout.png" alt="Profile">
+                            <form action="/logout?_method=DELETE" method="POST">
+                                <button type="submit">Logout</button>
+                                <span>></span>
+                            </form>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="text-area">
+            <h1>Choose your game to play</h1>
+        </div>
+
+        <div class="menu-games">
+            <div class="game">
+                <a href="/quiz"><img src="/images/dashboard/images/games-img/1.png" alt="Game 1"></a>
+            </div>
+            <div class="game">
+                <img src="/images/dashboard/images/games-img/2.png" alt="Game 2">
+            </div>
+            <div class="game">
+                <img src="/images/dashboard/images/games-img/3.png" alt="Game 3">
+            </div>
+            <div class="game">
+                <img src="/images/dashboard/images/games-img/4.png" alt="Game 4">
+            </div>
+        </div>
+        <section class="ranking-players">
+            <h1>Best Players</h1>
+            <ul class="players">
+                <% for (let i=0; i < rankedUsers.length; i++) { %>
+                    <li>
+                        <% if (i===0) { %>
+                            <span>1º</span>
+                            <% } else if (i===1) { %>
+                                <span>2º</span>
+                                <% } else if (i===2) { %>
+                                    <span>3º</span>
+                                    <% } else { %>
+                                        <span>
+                                            <%= i + 1 %>º
+                                        </span>
+                                        <% } %>
+
+                                            <span class="name">Name: <%= rankedUsers[i].name %></span>
+                                            <span class="score">Score: <%= rankedUsers[i].score %></span>
+                    </li>
+                    <% } %>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="/js/dashboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Exo:wght@300&family=Mooli&family=Philosopher:wght@400;700&family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Black Ops One";
+}
+
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.login-header img {
+  width: 100px;
+}
+
+.login-header h1 {
+  text-align: center;
+}
+
+.login-header {
+  font-size: 1.5em;
+  color: rgb(240, 200, 127);
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+.login-input, .password-input {
+  width: 100%;
+  max-width: 300px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+
+.button-input-enabled {
+  width: 100%;
+  max-width: 300px;
+  color: white;
+  background-color: rgb(207, 143, 22);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0px;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+  cursor: pointer;
+}
+
+.button-input-disabled {
+  background-color: #b8b8b8;
+  width: 100%;
+  max-width: 300px;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0px;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+
+.toggleLink {
+  color: #333;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.row {
+  padding: 10px 0px;
+}
+
+.alert {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.6980392157);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.help-text-email {
+  color: #333;
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+}/*# sourceMappingURL=style.css.map */

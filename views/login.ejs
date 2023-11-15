@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script defer src="js/register.js"></script>
+
+    <title>Game English | Login</title>
+</head>
+
+<body>
+    <form action="/login" method="POST" class="login-form">
+        <div class="login-header">
+            <img src="images/trofeu.png" alt="Logo-Game">
+            <h1 id="h1-text">English Game | Login</h1>
+
+        </div>
+
+        <div class="row">
+            <% if (messages.error) {%>
+                <div class="alert alert-danger">
+                    <strong>
+                        <%= messages.error %>
+                    </strong>
+                </div>
+                <% } %>
+        </div>
+        <input type="text" name="username" class="login-input" placeholder="User Name" required minlength="5"
+            autocomplete="username">
+        <input type="password" name="password" class="password-input" placeholder="Password" required minlength="5"
+            autocomplete="new-password">
+
+        <button type="submit" class="button-input-disabled">Play</button>
+        <a class="toggleLink" href="./register">Register</a>
+    </form>
+</body>
+
+</html>

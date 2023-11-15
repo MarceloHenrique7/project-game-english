@@ -1,0 +1,250 @@
+[
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Casa",
+        "options": ["CAR", "WATER", "HOUSE"],
+        "response_correct": "HOUSE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Teclado",
+        "options": ["KEYBOARD", "MOUSE", "CONTROL"],
+        "response_correct": "KEYBOARD"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Computador",
+        "options": ["TABLET", "COMPUTER", "PHONE"],
+        "response_correct": "COMPUTER"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Cachorro",
+        "options": ["CAT", "DOG", "HORSE"],
+        "response_correct": "DOG"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Amigo",
+        "options": [ "ENEMY", "STRANGER","FRIEND"],
+        "response_correct": "FRIEND"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Maçã",
+        "options": ["APPLE", "BANANA", "ORANGE"],
+        "response_correct": "APPLE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Carro",
+        "options": [ "TRAIN", "CAR", "BUS"],
+        "response_correct": "CAR"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Bola",
+        "options": [ "BOOK", "SHOES", "BALL"],
+        "response_correct": "BALL"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Árvore",
+        "options": [ "FLOWER", "TREE", "GRASS"],
+        "response_correct": "TREE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Mar",
+        "options": ["SEA", "LAKE", "RIVER"],
+        "response_correct": "SEA"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Sol",
+        "options": [ "MOON", "STAR", "SUN"],
+        "response_correct": "SUN"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Relógio",
+        "options": [ "PHONE", "WATCH", "COMPUTER"],
+        "response_correct": "WATCH"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Praia",
+        "options": [ "MOUNTAIN", "FOREST", "BEACH"],
+        "response_correct": "BEACH"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Lápis",
+        "options": [ "PEN", "PENCIL", "ERASER"],
+        "response_correct": "PENCIL"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Chave",
+        "options": [ "LOCK", "DOOR", "KEY"],
+        "response_correct": "KEY"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Cavalo",
+        "options": [ "DOG", "HORSE", "CAT"],
+        "response_correct": "HORSE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Água",
+        "options": ["WATER", "FIRE", "EARTH"],
+        "response_correct": "WATER"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Livro",
+        "options": ["BOOK", "PENCIL", "ERASER"],
+        "response_correct": "BOOK"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Telefone",
+        "options": [ "COMPUTER", "PHONE", "KEYBOARD"],
+        "response_correct": "PHONE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Bicicleta",
+        "options": [ "CAR", "MOTORCYCLE", "BICYCLE"],
+        "response_correct": "BICYCLE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Montanha",
+        "options": ["MOUNTAIN", "SEA", "FOREST"],
+        "response_correct": "MOUNTAIN"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Porta",
+        "options": ["WINDOW", "DOOR", "FLOOR"],
+        "response_correct": "DOOR"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Avião",
+        "options": [ "SHIP", "TRAIN", "PLANE"],
+        "response_correct": "PLANE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Comida",
+        "options": [ "DRINK", "FOOD", "DESSERT"],
+        "response_correct": "FOOD"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Rosa",
+        "options": ["ROSE", "SUNFLOWER", "DAISY"],
+        "response_correct": "ROSE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Chocolate",
+        "options": ["CHOCOLATE", "CANDY", "ICE CREAM"],
+        "response_correct": "CHOCOLATE"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Amarelo",
+        "options": [ "RED", "BLUE", "YELLOW"],
+        "response_correct": "YELLOW"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Pessoa",
+        "options": ["PERSON", "ANIMAL", "PLANT"],
+        "response_correct": "PERSON"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Cinema",
+        "options": [ "THEATER", "CINEMA", "CONCERT"],
+        "response_correct": "CINEMA"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Inverno",
+        "options": ["SUMMER", "WINTER", "SPRING"],
+        "response_correct": "WINTER"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Caneta",
+        "options": ["PEN", "PENCIL", "MARKER"],
+        "response_correct": "PEN"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Papagaio",
+        "options": ["PARROT", "PENGUIN", "PEACOCK"],
+        "response_correct": "PARROT"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Futebol",
+        "options": [ "TENNIS", "SOCCER", "BASKETBALL"],
+        "response_correct": "SOCCER"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Bolsa",
+        "options": [ "WALLET", "BAG", "PURSE"],
+        "response_correct": "BAG"
+    },
+    {
+        "question": "Como se escreve a seguinte palavra em inglês?",
+        "word": "Efêmero",
+        "options": ["FLEETING", "TRANSIENT", "EPHEMERAL"],
+        "response_correct": "EPHEMERAL"
+    },
+    {
+        "question": "Traduza a palavra a seguir para o inglês:",
+        "word": "Emérito",
+        "options": ["MERITORIOUS", "EMERITUS", "DISTINGUISHED"],
+        "response_correct": "EMERITUS"
+    },
+    {
+        "question": "Como se diz a palavra a seguir em inglês?",
+        "word": "Obsequioso",
+        "options": ["OBLIGING", "OBSEQUIOUS", "SUBSERVIENT"],
+        "response_correct": "OBSEQUIOUS"
+    },
+    {
+        "question": "Traduza a palavra a seguir para o inglês:",
+        "word": "Efusivo",
+        "options": ["EFFUSIVE", "EXPANSIVE", "EBULLIENT"],
+        "response_correct": "EFFUSIVE"
+    },
+    {
+        "question": "Qual é a tradução correta para a palavra abaixo?",
+        "word": "Pletora",
+        "options": ["PLETHORA", "SURFEIT", "ABUNDANCE"],
+        "response_correct": "PLETHORA"
+    },
+    {
+        "question": "Traduza a palavra a seguir para o inglês:",
+        "word": "Cacofonia",
+        "options": ["CLOUDBURST", "CACOPHONY", "DISCORD"],
+        "response_correct": "CACOPHONY"
+    },
+    {
+        "question": "Como se diz a palavra a seguir em inglês?",
+        "word": "Prolífico",
+        "options": ["PROFUSE", "PROLIFIC", "ABUNDANT"],
+        "response_correct": "PROLIFIC"
+    }
+]
+
+
