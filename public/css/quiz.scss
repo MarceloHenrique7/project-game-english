@@ -21,9 +21,14 @@ header {
     text-align: center;
     padding: 40px 0px;
     font-family: "Black Ops One";
-    color: #f5bc02;
+    
     background-color: #fff;
     margin-bottom: 50px;
+}
+
+header a {
+    color: #f5bc02;
+    text-decoration: none;
 }
 
 main {
@@ -45,7 +50,7 @@ main {
 
 .background-container {
 
-    background-color: #f5bc02;
+    background-color: #333;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
     border-radius: 5px;
     position: absolute;
@@ -69,9 +74,15 @@ main > .questions {
     justify-content: center;
     color: white;
 }
+main > .form-game {
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 main > .form-game, #options {
     display: none;
+    
+
 }
 
 main > .form-game > button {
@@ -118,7 +129,7 @@ main > .form-game > button:hover {
     width: 60%;
     display: none;
     color: white;
-    background: linear-gradient(to left, rgb(245, 183, 11), #99821b);
+    background-color: #333;
     box-shadow: 0px 0px 15px #33333369;
     padding: 10px;
     border-radius: 8px;
@@ -150,6 +161,10 @@ main > .form-game > button:hover {
     line-height: 35px;
 }
 
+.text-end {
+    display: none;
+}
+
 .btn-game {
     width: 100%;
     max-width: 250px;
@@ -173,6 +188,11 @@ main > .form-game > button:hover {
     border-radius: 5px;
     cursor: pointer;
     border: none;
+}
+
+.btn-game button.play-again {
+    display: none;
+    background-color: greenyellow;
 }
 
 .btn-game button.start {
@@ -232,6 +252,8 @@ main > .form-game > button:hover {
         width: 50%;
     }
 }
+
+
 
 @keyframes animationScale {
     from {

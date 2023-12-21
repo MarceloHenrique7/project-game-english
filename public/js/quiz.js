@@ -70,14 +70,17 @@ function startGame () {
     const formGame = document.querySelector('.form-game')
     const options = document.querySelector('#options')
     const styleTimer = document.querySelector('.style-timer')
-
+    const textEnd = document.querySelector('.text-end');
+    
+    timer.textContent = '100'
     textStart.style.display = 'none';
-    options.style.display = 'block';
+    options.style.display = 'flex';
     questions.style.display = 'flex';
     formGame.style.display = 'block';
     styleTimer.style.display = 'block'
     start.style.display = 'none'
     end.style.display = 'block'
+    textEnd.style.display = 'none'
 
     startTimer();
 };
@@ -87,10 +90,17 @@ function endGame () {
     const scoreEndGame = document.querySelector('.score').textContent;
     const namePlayer = document.querySelector('.name-player').textContent.trim();
     const playerData = { name: namePlayer, score: scoreEndGame };
+    const questions = document.querySelector('.questions');
+    const options = document.querySelector('#options');
+    const textEnd = document.querySelector('.text-end');
+    const playAgain = document.querySelector('.play-again');
     
     const dataScore = document.querySelector('.scorePlayer')
     dataScore.style.display = 'block'
-
+    questions.style.display = 'none'
+    options.style.display = 'none'
+    textEnd.style.display = 'block'
+    playAgain.style.display = 'block'
     end.style.display = 'none'
     
     stopTimer();
@@ -113,6 +123,11 @@ function endGame () {
     }
     
 };
+
+
+function playAgainGame () {
+    startGame()
+}
 
 
 const startTimer = () => {

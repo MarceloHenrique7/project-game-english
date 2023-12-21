@@ -11,7 +11,9 @@
 <body>
 
     <header class="content-header">
-        <h1>Quiz | Game English</h1>
+        <a href="/">
+            <h1>Quiz | Game English</h1>
+        </a>
     </header>
 
     <main class="main-responsive">
@@ -20,6 +22,9 @@
         </div>
         <div class="text-start">
             <h1>Quantas Questões em inglês Voçê consegue acertar?</h1>
+        </div>
+        <div class="text-end">
+            Parabéns!! olhe sua pontuação abaixo e verifique seu novo ranking
         </div>
 
         <div class="questions">
@@ -38,8 +43,11 @@
 
     </main>
     <div class="btn-game">
+        <button class="play-again" onclick="playAgainGame()">
+            Play Again
+        </button>
         <button class="start" onclick="startGame()">Começar</button>
-        <div class="style-timer">Time: <span class="timer">10</span></div>
+        <div class="style-timer">Time: <span class="timer">100</span></div>
         <button class="end" onclick="endGame()" id="disabled">Terminar o jogo</button>
     </div>
     <div class="scorePlayer" id="score-player">
